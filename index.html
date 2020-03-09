@@ -18,13 +18,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="/files/vinlind.jpg">
     
+	    <script> 
+    $(function(){
+      $("#includeNavbar").load("include/navbar.html"); 
+    });
+		        $(function(){
+      $("#includeFooter").load("include/footer.html"); 
+    });
+    </script> 
+	
   </head>
   <body class="font-SF-Display">
 
-    <?php
-		$current = 'home';
-		include('php/navbar.php');
-     ?>
+<div id="includeNavbar"></div>
     
  <!--   <div class="alert alert-primary alert-dismissible fade show" role="alert">
       New merch; Go to the <a href="https://teespring.com/stores/clothes-28" class="alert-link">"Store" tab</a> to check it out!
@@ -52,9 +58,7 @@
 </div>
     </div>
 	
-    <?php
-		include('php/footer.php');
-    ?>
+<div id="includeFooter"></div>
     
   </body>
 </html>
