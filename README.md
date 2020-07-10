@@ -1,2 +1,2 @@
 # vinlind.us
-code for my site
+my homepage
