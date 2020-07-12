@@ -1,0 +1,18 @@
+body {
+  font-family: 'Roboto';
+  background-color: #121212;
+}
+
+.sidebyside {
+  display: inline-block;
+}
+
+.center-float {
+  margin: 0 auto;
+}
+
+.nice-header {
+  padding: 2rem;
+  font-size: 3.5rem;
+  color: #AA0000;
+}
