@@ -1,2 +1,1 @@
 # vinlind.us
-my homepage
